@@ -138,30 +138,37 @@ export const Navbar: React.FC = () => {
   };
 
   return (
-    <nav className="bg-white/80 dark:bg-ge-dark/80 backdrop-blur-md shadow-lg sticky top-0 z-40 transition-colors duration-300 border-b border-ge-green/10 dark:border-ge-green-light/10">
+    <nav className="bg-white/80 dark:bg-ge-dark/80 backdrop-blur-md shadow-lg sticky top-0 z-40 transition-colors duration-300 border-b border-ge-green/10 dark:border-ge-green-light/10 overflow-visible">
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center py-3">
           {/* Logo and Brand */}
-          <div className="flex items-center">
-            <Link href="/" className="flex items-center gap-2">
+          <div className="flex items-center shrink-0">
+            <Link href="/" className="shrink-0 relative z-10">
               <Image
                 src="/logo_greempir_optimized.png"
                 alt="Green Empire Lawn & Landscape"
-                width={180}
-                height={100}
-                className="object-contain h-14 w-auto"
+                width={200}
+                height={120}
+                className="object-contain h-16 md:h-20 w-auto -my-3 md:-my-6"
                 priority
               />
             </Link>
-            <div className="flex flex-col ml-2">
-              <Link href="/" className="text-sm sm:text-base font-bold text-gray-900 dark:text-white leading-tight">
-                Green Empire Lawn & Landscape
+            <div className="flex flex-col ml-2 shrink-0">
+              <Link href="/" className="font-bold text-gray-900 dark:text-white leading-snug">
+                {/* Mobile: two lines */}
+                <span className="block md:hidden text-base">
+                  Green Empire Lawn<br />& Landscape
+                </span>
+                {/* Desktop: one line */}
+                <span className="hidden md:block text-lg whitespace-nowrap">
+                  Green Empire Lawn & Landscape
+                </span>
               </Link>
               <a
                 href="https://wa.me/15023142158"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-xs text-ge-green dark:text-ge-green-light hover:underline leading-tight"
+                className="text-xs text-ge-green dark:text-ge-green-light hover:underline leading-tight mt-0.5"
               >
                 (502) 314-2158
               </a>
