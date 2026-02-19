@@ -152,19 +152,23 @@ export const Navbar: React.FC = () => {
                 priority
               />
             </Link>
-            <div className="flex items-center ml-2 shrink-0 gap-2 sm:gap-3">
-              <Link href="/" className="font-bold text-gray-900 dark:text-white leading-tight">
-                <span className="block text-sm sm:text-base md:text-lg">Green Empire</span>
-                <span className="block text-sm sm:text-base md:text-lg">Lawn & Landscape</span>
+            <div className="flex flex-col ml-2 shrink-0">
+              <div className="flex items-baseline gap-2">
+                <Link href="/" className="font-bold text-sm sm:text-base md:text-lg text-gray-900 dark:text-white">
+                  Green Empire
+                </Link>
+                <a
+                  href="https://wa.me/15023142158"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-xs sm:text-sm text-ge-green dark:text-ge-green-light hover:underline whitespace-nowrap"
+                >
+                  (502) 314-2158
+                </a>
+              </div>
+              <Link href="/" className="font-bold text-sm sm:text-base md:text-lg text-gray-900 dark:text-white leading-tight">
+                Lawn &amp; Landscape
               </Link>
-              <a
-                href="https://wa.me/15023142158"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-xs sm:text-sm text-ge-green dark:text-ge-green-light hover:underline whitespace-nowrap"
-              >
-                (502) 314-2158
-              </a>
             </div>
           </div>
 
