@@ -34,9 +34,9 @@ export const Footer: React.FC = () => {
               {t('brand.description')}
             </p>
             <div className="flex flex-col space-y-2 text-sm text-gray-300">
-              <a href="tel:+18005551234" className="flex items-center gap-2 hover:text-ge-green-light transition-colors">
+              <a href="tel:+15023142158" className="flex items-center gap-2 hover:text-ge-green-light transition-colors">
                 <Phone className="w-4 h-4" />
-                <span>(800) 555-1234</span>
+                <span>(502) 314-2158</span>
               </a>
               <a href="mailto:info@greenempirellc.com" className="flex items-center gap-2 hover:text-ge-green-light transition-colors">
                 <Mail className="w-4 h-4" />

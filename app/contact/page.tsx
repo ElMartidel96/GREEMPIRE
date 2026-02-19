@@ -31,7 +31,7 @@ const translations = {
     heroSubtitle: 'Tell us about your property and the services you need. We\'ll get back to you within 24 hours with a custom plan and transparent pricing.',
     phoneTitle: 'Call Us',
     phoneDesc: 'Speak with us directly',
-    phoneNumber: '(800) 555-1234',
+    phoneNumber: '(502) 314-2158',
     emailTitle: 'Email Us',
     emailDesc: 'Response within 24 hours',
     emailAddress: 'info@greenempirellc.com',
@@ -92,7 +92,7 @@ const translations = {
     heroSubtitle: 'Cuéntanos sobre tu propiedad y los servicios que necesitas. Te responderemos dentro de 24 horas con un plan personalizado y precios transparentes.',
     phoneTitle: 'Llámanos',
     phoneDesc: 'Habla con nosotros directamente',
-    phoneNumber: '(800) 555-1234',
+    phoneNumber: '(502) 314-2158',
     emailTitle: 'Escríbenos',
     emailDesc: 'Respuesta en menos de 24 horas',
     emailAddress: 'info@greenempirellc.com',
@@ -211,7 +211,7 @@ export default function ContactPage() {
               <Globe className="w-4 h-4" />
               <span>{lang === 'es' ? 'EN' : 'ES'}</span>
             </button>
-            <a href="tel:+18005551234" className="hidden sm:flex items-center gap-2 px-4 py-2 ge-button-primary rounded-lg font-medium text-sm text-white">
+            <a href="tel:+15023142158" className="hidden sm:flex items-center gap-2 px-4 py-2 ge-button-primary rounded-lg font-medium text-sm text-white">
               <Phone className="w-4 h-4" />
               {t.phoneNumber}
             </a>
@@ -241,7 +241,7 @@ export default function ContactPage() {
       <section className="py-8 px-4">
         <div className="container mx-auto max-w-6xl">
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
-            <a href="tel:+18005551234" className="glass-crystal rounded-xl p-6 hover:scale-[1.02] transition-all group">
+            <a href="tel:+15023142158" className="glass-crystal rounded-xl p-6 hover:scale-[1.02] transition-all group">
               <div className="w-12 h-12 bg-ge-green/10 dark:bg-ge-green-light/20 rounded-xl flex items-center justify-center mb-4">
                 <Phone className="w-6 h-6 text-ge-green dark:text-ge-green-light" />
               </div>
@@ -418,7 +418,7 @@ export default function ContactPage() {
                 <Calendar className="w-10 h-10 text-ge-gold mb-4" />
                 <h3 className="font-bold text-lg mb-2">{t.callTitle}</h3>
                 <p className="text-sm text-white/80 mb-4">{t.callDesc}</p>
-                <a href="tel:+18005551234" className="block w-full py-3 ge-button-gold rounded-lg font-semibold text-center">
+                <a href="tel:+15023142158" className="block w-full py-3 ge-button-gold rounded-lg font-semibold text-center">
                   {t.phoneNumber}
                 </a>
               </div>
@@ -431,7 +431,7 @@ export default function ContactPage() {
       <footer className="bg-ge-dark text-white py-8 px-4">
         <div className="container mx-auto max-w-6xl text-center">
           <p className="text-gray-400 text-sm">
-            © 2025 Green Empire Lawn & Landscape LLC. {lang === 'es' ? 'Todos los derechos reservados.' : 'All rights reserved.'}
+            © 2026 Green Empire Lawn & Landscape. {lang === 'es' ? 'Todos los derechos reservados.' : 'All rights reserved.'}
           </p>
         </div>
       </footer>

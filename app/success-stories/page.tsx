@@ -317,7 +317,7 @@ export default function SuccessStoriesPage() {
       <footer className="bg-ge-green text-white py-8 px-4">
         <div className="container mx-auto max-w-6xl text-center">
           <p className="text-gray-400 text-sm">
-            © 2025 Green Empire LLC. Todos los derechos reservados.
+            © 2026 Green Empire LLC. Todos los derechos reservados.
           </p>
           <p className="text-gray-500 text-xs mt-2">
             Los resultados pueden variar. Las cifras presentadas son ejemplos de conductores exitosos

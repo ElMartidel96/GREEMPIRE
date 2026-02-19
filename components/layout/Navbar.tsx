@@ -170,11 +170,11 @@ export const Navbar: React.FC = () => {
               {t('contact')}
             </Link>
             <a
-              href="tel:+18005551234"
+              href="tel:+15023142158"
               className="flex items-center gap-1.5 px-3 py-1.5 bg-ge-green/10 dark:bg-ge-green-light/20 text-ge-green dark:text-ge-green-light rounded-full text-sm font-medium hover:bg-ge-green/20 dark:hover:bg-ge-green-light/30 transition-colors"
             >
               <Phone className="w-3.5 h-3.5" />
-              (800) 555-1234
+              (502) 314-2158
             </a>
           </div>
 
@@ -287,11 +287,11 @@ export const Navbar: React.FC = () => {
                 {t('contact')}
               </Link>
               <a
-                href="tel:+18005551234"
+                href="tel:+15023142158"
                 className="mx-4 flex items-center justify-center gap-2 px-4 py-2.5 bg-ge-green/10 dark:bg-ge-green-light/20 text-ge-green dark:text-ge-green-light rounded-lg font-medium text-sm"
               >
                 <Phone className="w-4 h-4" />
-                (800) 555-1234
+                (502) 314-2158
               </a>
 
               <div className="flex items-center space-x-2 px-4 pt-2">

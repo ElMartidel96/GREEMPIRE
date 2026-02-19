@@ -293,7 +293,7 @@ export default function MentorshipPage() {
       <footer className="bg-ge-green text-white py-8 px-4">
         <div className="container mx-auto max-w-6xl text-center">
           <p className="text-gray-400 text-sm">
-            © 2025 Green Empire Lawn & Landscape LLC. Todos los derechos reservados.
+            © 2026 Green Empire Lawn & Landscape. Todos los derechos reservados.
           </p>
         </div>
       </footer>

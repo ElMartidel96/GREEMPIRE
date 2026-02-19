@@ -8,20 +8,20 @@ import { getLocale, getMessages } from 'next-intl/server';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Green Empire Lawn & Landscape LLC - Complete Exterior Maintenance',
-  description: 'Green Empire Lawn & Landscape LLC provides professional lawn care, landscaping, gutter cleaning, pressure washing, and garden design services. Your complete exterior maintenance solution — one call does it all.',
+  title: 'Green Empire Lawn & Landscape | Complete Exterior Care',
+  description: 'Green Empire Lawn & Landscape provides professional lawn care, landscaping, gutter cleaning, pressure washing, and garden design services. Your complete exterior maintenance solution — one call does it all.',
   keywords: 'lawn care, landscaping, gutter cleaning, pressure washing, garden design, yard maintenance, lawn mowing, mulching, leaf removal, exterior maintenance, Green Empire',
-  authors: [{ name: 'Green Empire Lawn & Landscape LLC' }],
-  creator: 'Green Empire Lawn & Landscape LLC',
+  authors: [{ name: 'Green Empire Lawn & Landscape' }],
+  creator: 'Green Empire Lawn & Landscape',
   openGraph: {
-    title: 'Green Empire Lawn & Landscape LLC - Complete Exterior Maintenance',
+    title: 'Green Empire Lawn & Landscape | Complete Exterior Care',
     description: 'Professional lawn care, landscaping, and exterior maintenance. One trusted team for everything outside your door.',
     type: 'website',
     locale: 'en_US',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Green Empire Lawn & Landscape LLC',
+    title: 'Green Empire Lawn & Landscape',
     description: 'Your complete exterior maintenance solution. Lawn care, landscaping, gutter cleaning & more.',
   },
   robots: {

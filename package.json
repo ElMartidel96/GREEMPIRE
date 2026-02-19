@@ -1,7 +1,7 @@
 {
   "name": "green-empire-lawn",
   "version": "1.0.0",
-  "description": "Green Empire Lawn & Landscape LLC - Complete Exterior Maintenance Platform",
+  "description": "Green Empire Lawn & Landscape - Complete Exterior Maintenance Platform",
   "private": true,
   "engines": {
     "node": ">=20.0.0"

@@ -34,7 +34,7 @@ const translations = {
     dspProgram: 'Programa de Socios DSP',
     heroTitle1: 'Construye Tu Negocio de',
     heroTitle2: 'Entregas con Nosotros',
-    heroSubtitle: '¿Tienes más de un vehículo? Conviértete en socio DSP y escala tu negocio de entregas con el respaldo de Green Empire Lawn & Landscape LLC.',
+    heroSubtitle: '¿Tienes más de un vehículo? Conviértete en socio DSP y escala tu negocio de entregas con el respaldo de Green Empire Lawn & Landscape.',
 
     // Stats
     monthlyIncome: 'Ingresos mensuales',
@@ -123,7 +123,7 @@ const translations = {
 
     // Success
     successTitle: '¡Solicitud Recibida!',
-    successMessage: 'Gracias por tu interés en ser socio de Green Empire Lawn & Landscape LLC. Nuestro equipo de desarrollo de negocios te contactará en las próximas 24-48 horas.',
+    successMessage: 'Gracias por tu interés en ser socio de Green Empire Lawn & Landscape. Nuestro equipo de desarrollo de negocios te contactará en las próximas 24-48 horas.',
     backToHome: 'Volver al Inicio',
     questions: '¿Preguntas? Llámanos al',
 
@@ -141,7 +141,7 @@ const translations = {
     dspProgram: 'DSP Partner Program',
     heroTitle1: 'Build Your Delivery',
     heroTitle2: 'Business with Us',
-    heroSubtitle: 'Have more than one vehicle? Become a DSP partner and scale your delivery business with the support of Green Empire Lawn & Landscape LLC.',
+    heroSubtitle: 'Have more than one vehicle? Become a DSP partner and scale your delivery business with the support of Green Empire Lawn & Landscape.',
 
     // Stats
     monthlyIncome: 'Monthly income',
@@ -230,7 +230,7 @@ const translations = {
 
     // Success
     successTitle: 'Application Received!',
-    successMessage: 'Thank you for your interest in becoming a partner with Green Empire Lawn & Landscape LLC. Our business development team will contact you within 24-48 hours.',
+    successMessage: 'Thank you for your interest in becoming a partner with Green Empire Lawn & Landscape. Our business development team will contact you within 24-48 hours.',
     backToHome: 'Back to Home',
     questions: 'Questions? Call us at',
 

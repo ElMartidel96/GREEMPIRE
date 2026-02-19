@@ -115,7 +115,7 @@ export default function LandingPage() {
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </Link>
                 <a
-                  href="tel:+18005551234"
+                  href="tel:+15023142158"
                   className="inline-flex items-center gap-2 px-6 py-3 bg-white/70 dark:bg-white/10 backdrop-blur-sm rounded-lg font-semibold text-sm text-gray-700 dark:text-white border border-gray-200 dark:border-white/20 hover:bg-white dark:hover:bg-white/20 transition-all hover:scale-105"
                 >
                   <Phone className="w-4 h-4" />
@@ -156,7 +156,7 @@ export default function LandingPage() {
                 <div className="relative w-full max-w-md rounded-3xl glass-crystal p-6 flex items-center justify-center" style={{ animation: 'float 4s ease-in-out infinite' }}>
                   <Image
                     src="/logo_greempir_optimized.png"
-                    alt="Green Empire Lawn & Landscape LLC"
+                    alt="Green Empire Lawn & Landscape"
                     width={400}
                     height={400}
                     className="object-contain w-full h-auto"
@@ -628,7 +628,7 @@ export default function LandingPage() {
                 <ArrowRight className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
               </Link>
               <a
-                href="tel:+18005551234"
+                href="tel:+15023142158"
                 className="inline-flex items-center gap-2 px-8 py-4 bg-white/70 dark:bg-white/10 backdrop-blur-sm rounded-xl font-bold text-lg text-gray-700 dark:text-white border border-gray-200 dark:border-white/20 hover:bg-white dark:hover:bg-white/20 transition-all hover:scale-105"
               >
                 <Phone className="w-5 h-5" />
