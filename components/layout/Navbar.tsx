@@ -153,6 +153,19 @@ export const Navbar: React.FC = () => {
                 priority
               />
             </Link>
+            <div className="flex flex-col ml-2">
+              <Link href="/" className="text-sm sm:text-base font-bold text-gray-900 dark:text-white leading-tight">
+                Green Empire Lawn & Landscape
+              </Link>
+              <a
+                href="https://wa.me/15023142158"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-xs text-ge-green dark:text-ge-green-light hover:underline leading-tight"
+              >
+                (502) 314-2158
+              </a>
+            </div>
           </div>
 
           {/* Desktop Navigation */}
@@ -170,7 +183,9 @@ export const Navbar: React.FC = () => {
               {t('contact')}
             </Link>
             <a
-              href="tel:+15023142158"
+              href="https://wa.me/15023142158"
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex items-center gap-1.5 px-3 py-1.5 bg-ge-green/10 dark:bg-ge-green-light/20 text-ge-green dark:text-ge-green-light rounded-full text-sm font-medium hover:bg-ge-green/20 dark:hover:bg-ge-green-light/30 transition-colors"
             >
               <Phone className="w-3.5 h-3.5" />
@@ -287,7 +302,9 @@ export const Navbar: React.FC = () => {
                 {t('contact')}
               </Link>
               <a
-                href="tel:+15023142158"
+                href="https://wa.me/15023142158"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="mx-4 flex items-center justify-center gap-2 px-4 py-2.5 bg-ge-green/10 dark:bg-ge-green-light/20 text-ge-green dark:text-ge-green-light rounded-lg font-medium text-sm"
               >
                 <Phone className="w-4 h-4" />
