@@ -18,7 +18,7 @@ export const Footer: React.FC = () => {
             <div className="mb-4">
               <div className="bg-white/10 backdrop-blur-sm rounded-xl p-2 inline-block mb-2 border border-white/20">
                 <Image
-                  src="/logo_greempir_optimized.png"
+                  src="/logo.png"
                   alt="Green Empire Lawn & Landscape"
                   width={160}
                   height={88}

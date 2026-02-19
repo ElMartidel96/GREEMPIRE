@@ -67,7 +67,7 @@ export function DashboardHeader({ user, profile }: HeaderProps) {
           >
             <div className="bg-white/50 dark:bg-white/10 backdrop-blur-sm rounded-lg p-1 border border-gray-200 dark:border-white/20 hover:bg-white/70 dark:hover:bg-white/20 transition-colors">
               <Image
-                src="/logo_greempir_optimized.png"
+                src="/logo.png"
                 alt="Green Empire"
                 width={80}
                 height={44}

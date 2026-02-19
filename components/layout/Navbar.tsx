@@ -144,7 +144,7 @@ export const Navbar: React.FC = () => {
           <div className="flex items-center shrink-0">
             <Link href="/" className="shrink-0 relative z-10">
               <Image
-                src="/logo_greempir_optimized.png"
+                src="/logo.png"
                 alt="Green Empire Lawn & Landscape"
                 width={200}
                 height={120}
@@ -154,8 +154,9 @@ export const Navbar: React.FC = () => {
             </Link>
             <div className="flex flex-col ml-2 shrink-0">
               <div className="flex items-baseline gap-2">
-                <Link href="/" className="font-bold text-sm sm:text-base md:text-lg text-gray-900 dark:text-white">
-                  Green Empire
+                <Link href="/" className="flex items-baseline">
+                  <span className="font-extrabold uppercase text-sm sm:text-lg md:text-xl tracking-wide text-ge-green dark:text-ge-green-light">GREEN</span>
+                  <span className="font-extrabold uppercase text-sm sm:text-lg md:text-xl tracking-wide text-gray-800 dark:text-gray-100 ml-1 sm:ml-1.5">EMPIRE</span>
                 </Link>
                 <a
                   href="https://wa.me/15023142158"
@@ -166,8 +167,8 @@ export const Navbar: React.FC = () => {
                   (502) 314-2158
                 </a>
               </div>
-              <Link href="/" className="font-bold text-sm sm:text-base md:text-lg text-gray-900 dark:text-white leading-tight">
-                Lawn &amp; Landscape
+              <Link href="/" className="text-ge-green dark:text-ge-green-light uppercase tracking-[0.15em] text-[10px] sm:text-xs md:text-sm font-semibold leading-tight">
+                — Lawn & Landscape —
               </Link>
             </div>
           </div>

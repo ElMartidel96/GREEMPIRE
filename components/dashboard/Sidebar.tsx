@@ -158,7 +158,7 @@ export function DashboardSidebar({ user, profile }: SidebarProps) {
             {collapsed ? (
               <div className="w-10 h-10 bg-white/50 dark:bg-white/10 backdrop-blur-sm rounded-lg flex items-center justify-center border border-gray-200 dark:border-white/20 overflow-hidden hover:bg-white/70 dark:hover:bg-white/20 transition-colors">
                 <Image
-                  src="/logo_greempir_optimized.png"
+                  src="/logo.png"
                   alt="GE"
                   width={60}
                   height={33}
@@ -168,7 +168,7 @@ export function DashboardSidebar({ user, profile }: SidebarProps) {
             ) : (
               <div className="bg-white/50 dark:bg-white/10 backdrop-blur-sm rounded-lg p-1.5 border border-gray-200 dark:border-white/20 hover:bg-white/70 dark:hover:bg-white/20 transition-colors">
                 <Image
-                  src="/logo_greempir_optimized.png"
+                  src="/logo.png"
                   alt="Green Empire Lawn & Landscape"
                   width={140}
                   height={77}

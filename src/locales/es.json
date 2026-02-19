@@ -21,9 +21,9 @@
     "services": {
       "badge": "Nuestros Servicios",
       "title": "Mantenimiento Exterior Completo",
-      "subtitle": "Desde chapea de grama hasta diseño de jardines — un equipo, una llamada, una factura. Nos encargamos de todo lo exterior para que disfrutes tu propiedad sin estrés.",
+      "subtitle": "Desde corte de grama hasta diseño de jardines — un equipo, una llamada, una factura. Nos encargamos de todo lo exterior para que disfrutes tu propiedad sin estrés.",
       "mowing": {
-        "title": "Chapea y Mantenimiento de Grama",
+        "title": "Corte y Mantenimiento de Grama",
         "desc": "Corte semanal o quincenal, bordeado de precisión, recorte y soplado. Mantenemos tu césped impecable y saludable durante toda la temporada."
       },
       "cleanup": {
@@ -233,7 +233,7 @@
     },
     "services": {
       "title": "Servicios",
-      "mowing": "Chapea y Mantenimiento",
+      "mowing": "Corte y Mantenimiento",
       "cleanup": "Limpieza de Patio y Hojas",
       "gutters": "Limpieza de Canaletas",
       "pressure": "Lavado a Presión",
@@ -434,7 +434,7 @@
       "error": "Algo salió mal. Intenta de nuevo o llámanos directamente."
     },
     "services": {
-      "mowing": "Chapea de Grama",
+      "mowing": "Corte de Grama",
       "cleanup": "Limpieza de Patio",
       "gutters": "Limpieza de Canaletas",
       "pressure": "Lavado a Presión",

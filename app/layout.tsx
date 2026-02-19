@@ -19,12 +19,15 @@ export const metadata: Metadata = {
     description: 'Professional lawn care, landscaping, and exterior maintenance. One trusted team for everything outside your door.',
     type: 'website',
     locale: 'en_US',
+    url: 'https://greempire.vercel.app',
+    siteName: 'Green Empire Lawn & Landscape',
     images: [
       {
-        url: '/og-image.jpg',
-        width: 1200,
-        height: 1135,
-        alt: 'Green Empire Lawn & Landscape',
+        url: '/preview.jpeg',
+        width: 947,
+        height: 947,
+        alt: 'Green Empire Lawn & Landscape - Complete Exterior Care',
+        type: 'image/jpeg',
       },
     ],
   },
@@ -32,7 +35,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Green Empire Lawn & Landscape',
     description: 'Your complete exterior maintenance solution. Lawn care, landscaping, gutter cleaning & more.',
-    images: ['/og-image.jpg'],
+    images: ['/preview.jpeg'],
   },
   robots: {
     index: true,

@@ -114,7 +114,7 @@ const translations = {
     addressPlaceholder: '123 Calle Principal, Ciudad, Estado',
     services: 'Servicios Necesitados',
     serviceOptions: [
-      { label: 'Chapea y Mantenimiento de Grama', icon: 'scissors' },
+      { label: 'Corte y Mantenimiento de Grama', icon: 'scissors' },
       { label: 'Limpieza de Patio y Hojas', icon: 'leaf' },
       { label: 'Limpieza de Canaletas', icon: 'droplets' },
       { label: 'Lavado a Presión del Driveway', icon: 'sparkles' },
@@ -204,7 +204,7 @@ export default function ContactPage() {
       <header className="bg-white/80 dark:bg-ge-dark/80 backdrop-blur-md border-b border-ge-green/10 dark:border-ge-green-light/10 sticky top-0 z-50">
         <div className="container mx-auto px-4 py-3 flex items-center justify-between">
           <Link href="/" className="flex items-center">
-            <Image src="/logo_greempir_optimized.png" alt="Green Empire" width={140} height={77} className="object-contain h-12 w-auto" />
+            <Image src="/logo.png" alt="Green Empire" width={140} height={77} className="object-contain h-12 w-auto" />
           </Link>
           <div className="flex items-center gap-4">
             <button onClick={() => setLang(lang === 'es' ? 'en' : 'es')} className="flex items-center gap-2 px-3 py-1.5 bg-gray-100 dark:bg-ge-dark-light rounded-lg text-sm font-medium text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-ge-dark transition-colors">
