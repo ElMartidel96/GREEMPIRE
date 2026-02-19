@@ -50,9 +50,17 @@ export default function LandingPage() {
   const t = useTranslations('landing');
   const [isVisible, setIsVisible] = useState(false);
   const [openFaq, setOpenFaq] = useState<number | null>(null);
+  const [heroSlide, setHeroSlide] = useState(0);
 
   useEffect(() => {
     setIsVisible(true);
+  }, []);
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setHeroSlide((prev) => (prev === 0 ? 1 : 0));
+    }, 5000);
+    return () => clearInterval(timer);
   }, []);
 
   const toggleFaq = (index: number) => {
@@ -152,16 +160,30 @@ export default function LandingPage() {
                   }}
                 />
 
-                {/* Logo Container */}
-                <div className="relative w-full max-w-md rounded-3xl glass-crystal p-6 flex items-center justify-center" style={{ animation: 'float 4s ease-in-out infinite' }}>
-                  <Image
-                    src="/logo.png"
-                    alt="Green Empire Lawn & Landscape"
-                    width={400}
-                    height={400}
-                    className="object-contain w-full h-auto"
-                    priority
-                  />
+                {/* Hero Image Carousel */}
+                <div className="relative w-full max-w-md rounded-3xl glass-crystal p-6 flex items-center justify-center overflow-hidden" style={{ animation: 'float 4s ease-in-out infinite' }}>
+                  <div className="relative w-full aspect-square">
+                    <Image
+                      src="/hero-landscape.png"
+                      alt="Green Empire Lawn & Landscape — Professional Landscaping"
+                      width={800}
+                      height={800}
+                      className={`absolute inset-0 object-contain w-full h-full transition-opacity duration-1000 ease-in-out ${heroSlide === 0 ? 'opacity-100' : 'opacity-0'}`}
+                      priority
+                    />
+                    <Image
+                      src="/hero-logo-full.png"
+                      alt="Green Empire Lawn & Landscape — Complete Exterior Care"
+                      width={800}
+                      height={800}
+                      className={`absolute inset-0 object-contain w-full h-full transition-opacity duration-1000 ease-in-out ${heroSlide === 1 ? 'opacity-100' : 'opacity-0'}`}
+                    />
+                  </div>
+                  {/* Carousel indicators */}
+                  <div className="absolute bottom-3 left-1/2 -translate-x-1/2 flex gap-2">
+                    <button onClick={() => setHeroSlide(0)} className={`w-2 h-2 rounded-full transition-all duration-300 ${heroSlide === 0 ? 'bg-ge-green-light w-6' : 'bg-white/40'}`} aria-label="Slide 1" />
+                    <button onClick={() => setHeroSlide(1)} className={`w-2 h-2 rounded-full transition-all duration-300 ${heroSlide === 1 ? 'bg-ge-green-light w-6' : 'bg-white/40'}`} aria-label="Slide 2" />
+                  </div>
                 </div>
 
                 {/* Floating elements */}
