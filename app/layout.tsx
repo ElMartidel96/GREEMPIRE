@@ -8,6 +8,7 @@ import { getLocale, getMessages } from 'next-intl/server';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://greempire.vercel.app'),
   title: 'Green Empire Lawn & Landscape | Complete Exterior Care',
   description: 'Green Empire Lawn & Landscape provides professional lawn care, landscaping, gutter cleaning, pressure washing, and garden design services. Your complete exterior maintenance solution — one call does it all.',
   keywords: 'lawn care, landscaping, gutter cleaning, pressure washing, garden design, yard maintenance, lawn mowing, mulching, leaf removal, exterior maintenance, Green Empire',
@@ -18,11 +19,20 @@ export const metadata: Metadata = {
     description: 'Professional lawn care, landscaping, and exterior maintenance. One trusted team for everything outside your door.',
     type: 'website',
     locale: 'en_US',
+    images: [
+      {
+        url: '/og-image.jpg',
+        width: 1200,
+        height: 1135,
+        alt: 'Green Empire Lawn & Landscape',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Green Empire Lawn & Landscape',
     description: 'Your complete exterior maintenance solution. Lawn care, landscaping, gutter cleaning & more.',
+    images: ['/og-image.jpg'],
   },
   robots: {
     index: true,
