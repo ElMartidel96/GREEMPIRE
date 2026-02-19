@@ -14,7 +14,6 @@ import {
   X,
   Leaf,
   LogIn,
-  Phone,
   ChevronDown,
   LayoutDashboard,
   User as UserIcon,
@@ -189,15 +188,6 @@ export const Navbar: React.FC = () => {
             <Link href="/contact" className="text-gray-600 dark:text-gray-300 hover:text-ge-green dark:hover:text-ge-green-light transition-colors text-sm font-medium">
               {t('contact')}
             </Link>
-            <a
-              href="https://wa.me/15023142158"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-1.5 px-3 py-1.5 bg-ge-green/10 dark:bg-ge-green-light/20 text-ge-green dark:text-ge-green-light rounded-full text-sm font-medium hover:bg-ge-green/20 dark:hover:bg-ge-green-light/30 transition-colors"
-            >
-              <Phone className="w-3.5 h-3.5" />
-              (502) 314-2158
-            </a>
           </div>
 
           {/* Right Side - Controls */}
@@ -308,16 +298,6 @@ export const Navbar: React.FC = () => {
               <Link href="/contact" className="px-4 py-2 text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-ge-dark-light rounded-lg transition-colors" onClick={() => setIsMenuOpen(false)}>
                 {t('contact')}
               </Link>
-              <a
-                href="https://wa.me/15023142158"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mx-4 flex items-center justify-center gap-2 px-4 py-2.5 bg-ge-green/10 dark:bg-ge-green-light/20 text-ge-green dark:text-ge-green-light rounded-lg font-medium text-sm"
-              >
-                <Phone className="w-4 h-4" />
-                (502) 314-2158
-              </a>
-
               <div className="flex items-center space-x-2 px-4 pt-2">
                 <LanguageToggle />
                 <ThemeToggle />
