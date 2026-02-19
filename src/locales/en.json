@@ -1,0 +1,447 @@
+{
+  "landing": {
+    "hero": {
+      "badge1": "Licensed & Insured",
+      "badge2": "Complete Exterior Care",
+      "title1": "Your Property,",
+      "title2": "Completely Transformed.",
+      "subtitle": "Green Empire Lawn & Landscape is your complete exterior maintenance solution. We clean, organize, and transform the outside of your home so you never have to hire multiple contractors again.",
+      "cta1": "Get a Free Quote",
+      "cta2": "Call Us Now",
+      "trust1": "Licensed & Insured",
+      "trust2": "5-Star Rated",
+      "trust3": "Satisfaction Guaranteed"
+    },
+    "stats": {
+      "properties": "Properties Served",
+      "rating": "Client Rating",
+      "experience": "Years Experience",
+      "satisfaction": "Satisfaction Rate"
+    },
+    "services": {
+      "badge": "Our Services",
+      "title": "Complete Exterior Maintenance",
+      "subtitle": "From lawn mowing to garden design — one team, one call, one invoice. We handle everything outside your door so you can enjoy your property stress-free.",
+      "mowing": {
+        "title": "Lawn Mowing & Maintenance",
+        "desc": "Weekly or bi-weekly mowing, precision edging, trimming, and blowing. We keep your lawn looking sharp and healthy all season long."
+      },
+      "cleanup": {
+        "title": "Yard Cleanup & Leaf Removal",
+        "desc": "Spring and fall cleanups, debris removal, leaf collection, and property tidying. Start every season with a clean slate."
+      },
+      "gutters": {
+        "title": "Gutter Cleaning",
+        "desc": "Thorough gutter and downspout cleaning to prevent water damage, foundation issues, and pest problems. Recommended 2x per year."
+      },
+      "pressure": {
+        "title": "Driveway & Surface Cleaning",
+        "desc": "Professional pressure washing for driveways, walkways, patios, and exterior surfaces. Restore your curb appeal instantly."
+      },
+      "garden": {
+        "title": "Garden Design & Planting",
+        "desc": "Custom garden layouts, flower bed design, shrub installation, and seasonal plantings. Transform your outdoor space into a showpiece."
+      },
+      "mulching": {
+        "title": "Mulching & Bed Maintenance",
+        "desc": "Fresh mulch installation, bed edging, weed prevention, and shrub trimming. Keep your landscape beds looking polished year-round."
+      },
+      "cta": "Request a Free Estimate"
+    },
+    "packages": {
+      "badge": "Service Plans",
+      "title": "Simple, Transparent Pricing",
+      "subtitle": "Choose the plan that fits your property. All plans include our satisfaction guarantee and consistent, reliable service.",
+      "perVisit": "visit",
+      "perMonth": "month",
+      "popular": "Most Popular",
+      "getCTA": "Get Started",
+      "essential": {
+        "name": "Essential Care",
+        "desc": "Perfect for basic lawn maintenance",
+        "price": "$45",
+        "feature1": "Weekly or bi-weekly mowing",
+        "feature2": "Precision edging & trimming",
+        "feature3": "Blowing & cleanup after service",
+        "feature4": "Consistent same-crew visits"
+      },
+      "complete": {
+        "name": "Complete Care",
+        "desc": "Comprehensive lawn & landscape health",
+        "price": "$199",
+        "feature1": "Everything in Essential Care",
+        "feature2": "Seasonal fertilization (4x/year)",
+        "feature3": "Pre-emergent weed control",
+        "feature4": "Spring & fall cleanups included",
+        "feature5": "Annual mulch refresh",
+        "feature6": "Bed edging (2x/year)"
+      },
+      "total": {
+        "name": "Total Property Care",
+        "desc": "The ultimate one-call solution",
+        "price": "$349",
+        "feature1": "Everything in Complete Care",
+        "feature2": "Gutter cleaning (2x/year)",
+        "feature3": "Driveway pressure washing (1x/year)",
+        "feature4": "Hedge & shrub trimming (3x/year)",
+        "feature5": "Full leaf removal (fall season)",
+        "feature6": "Priority scheduling",
+        "feature7": "Dedicated account manager"
+      }
+    },
+    "whyUs": {
+      "title": "Why Homeowners Choose Green Empire",
+      "subtitle": "Stop juggling multiple contractors. We handle everything outside your door with one team, one invoice, and consistent quality.",
+      "problemTitle": "The Multi-Contractor Headache",
+      "problem1": "Juggling 3-4 different service providers",
+      "problem2": "Inconsistent quality from different crews",
+      "problem3": "Multiple invoices and scheduling headaches",
+      "problem4": "No single point of accountability",
+      "solutionTitle": "The Green Empire Solution",
+      "solution1": "One trusted team for all exterior services",
+      "solution2": "Consistent quality with the same crew every visit",
+      "solution3": "Single monthly invoice — simple and predictable",
+      "solution4": "100% satisfaction guarantee on every service"
+    },
+    "howItWorks": {
+      "title": "Getting Started Is Easy",
+      "subtitle": "From first call to beautiful property in three simple steps.",
+      "step1": {
+        "title": "Request Your Free Quote",
+        "desc": "Tell us about your property and the services you need. We'll schedule a free on-site assessment at your convenience."
+      },
+      "step2": {
+        "title": "We Assess & Plan",
+        "desc": "Our team visits your property, evaluates what's needed, and creates a custom service plan tailored to your goals and budget."
+      },
+      "step3": {
+        "title": "Enjoy Your Property",
+        "desc": "Sit back and relax. We handle everything on a reliable schedule so your property always looks its absolute best."
+      }
+    },
+    "seasonal": {
+      "badge": "Year-Round Care",
+      "title": "Every Season, We've Got You Covered",
+      "subtitle": "Your property's needs change with the seasons. Our services adapt to keep your exterior perfect all year.",
+      "spring": {
+        "name": "Spring",
+        "service1": "Spring cleanup & debris removal",
+        "service2": "Aeration & overseeding",
+        "service3": "Mulch installation & bed prep"
+      },
+      "summer": {
+        "name": "Summer",
+        "service1": "Weekly mowing & maintenance",
+        "service2": "Hedge & shrub trimming",
+        "service3": "Pressure washing services"
+      },
+      "fall": {
+        "name": "Fall",
+        "service1": "Leaf removal & fall cleanup",
+        "service2": "Gutter cleaning",
+        "service3": "Fall fertilization & winterization"
+      },
+      "winter": {
+        "name": "Winter",
+        "service1": "Winter pruning",
+        "service2": "Equipment maintenance",
+        "service3": "Spring planning & pre-booking"
+      }
+    },
+    "testimonials": {
+      "badge": "Client Reviews",
+      "title": "What Our Clients Say",
+      "review1": {
+        "text": "Green Empire transformed our yard completely. We used to hire three different people for lawn, gutters, and pressure washing. Now it's all one team, one bill. The quality is incredible and they show up like clockwork.",
+        "name": "Sarah M.",
+        "location": "Residential Client"
+      },
+      "review2": {
+        "text": "Best landscaping service we've ever used. The crew is professional, thorough, and actually cares about how the property looks. Our neighbors constantly ask who does our yard. Highly recommend!",
+        "name": "James R.",
+        "location": "Homeowner"
+      },
+      "review3": {
+        "text": "I love the Complete Care package. No more worrying about seasonal cleanups, fertilization schedules, or finding someone to clean the gutters. Green Empire handles it all and my yard has never looked better.",
+        "name": "Linda P.",
+        "location": "Package Client"
+      }
+    },
+    "serviceArea": {
+      "title": "Serving Your Community",
+      "desc": "We proudly serve residential and commercial properties across the greater area. Contact us to confirm service availability in your neighborhood.",
+      "area1": "Central District",
+      "area2": "North Side",
+      "area3": "South Side",
+      "area4": "East County",
+      "area5": "West End"
+    },
+    "faq": {
+      "badge": "Common Questions",
+      "title": "Frequently Asked Questions",
+      "q1": "What areas do you serve?",
+      "a1": "We serve residential and commercial properties across the greater metropolitan area. Contact us with your address and we'll confirm availability. We're expanding our service area regularly.",
+      "q2": "How quickly can you start service?",
+      "a2": "Most new clients are scheduled within 3-5 business days of their initial consultation. For urgent needs like storm cleanup, we offer priority scheduling within 24-48 hours when possible.",
+      "q3": "Do I need to be home during service?",
+      "a3": "No! Most of our clients aren't home during service visits. We just need access to the areas we'll be working on. We'll send you a notification when we arrive and when we finish, along with photos of the completed work.",
+      "q4": "What if it rains on my scheduled service day?",
+      "a4": "We monitor weather closely. If conditions don't allow safe, quality work, we'll reschedule within 24-48 hours at no extra charge. We never do subpar work just to keep a schedule.",
+      "q5": "Can I customize my service package?",
+      "a5": "Absolutely! Our packages are starting points. We can add or remove services to create the perfect plan for your property. Just tell us what you need and we'll build a custom quote.",
+      "q6": "Are you licensed and insured?",
+      "a6": "Yes. Green Empire Lawn & Landscape LLC is fully licensed and insured, including general liability and workers' compensation coverage. Your property and our team are always protected."
+    },
+    "finalCta": {
+      "title": "Ready for a Property You'll Love?",
+      "line1": "Stop stressing about your yard. Stop hiring multiple contractors.",
+      "line2": "One call. Complete exterior care. Guaranteed satisfaction.",
+      "line3": "Your free quote is just a click away.",
+      "button1": "Get Your Free Quote",
+      "button2": "Call Us Now",
+      "disclaimer": "Free estimates. No obligation. Satisfaction guaranteed on every service."
+    }
+  },
+  "navigation": {
+    "home": "Home",
+    "services": "Services",
+    "packages": "Pricing",
+    "contact": "Contact",
+    "about": "About Us",
+    "login": "Sign In",
+    "getQuote": "Free Quote"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "back": "Back",
+    "continue": "Continue",
+    "learnMore": "Learn More",
+    "getStarted": "Get Started",
+    "contactUs": "Contact Us"
+  },
+  "footer": {
+    "brand": {
+      "name": "Green Empire Lawn & Landscape",
+      "tagline": "Complete Exterior Care",
+      "description": "Your complete exterior maintenance solution. One trusted team for lawn care, landscaping, gutter cleaning, pressure washing, and garden design.",
+      "location": "Serving the Greater Area",
+      "hours": "Mon-Sat: 7AM - 7PM"
+    },
+    "services": {
+      "title": "Services",
+      "mowing": "Lawn Mowing & Maintenance",
+      "cleanup": "Yard Cleanup & Leaf Removal",
+      "gutters": "Gutter Cleaning",
+      "pressure": "Pressure Washing",
+      "garden": "Garden Design & Planting"
+    },
+    "company": {
+      "title": "Company",
+      "about": "About Us",
+      "pricing": "Service Plans",
+      "contact": "Contact Us",
+      "quote": "Free Quote"
+    },
+    "areas": {
+      "title": "Service Areas",
+      "area1": "Central District",
+      "area2": "North Side",
+      "area3": "South Side",
+      "area4": "East County",
+      "area5": "West End"
+    },
+    "bottom": {
+      "copyright": "© 2025 Green Empire Lawn & Landscape LLC. All rights reserved.",
+      "licensed": "Licensed & Insured",
+      "insured": "Satisfaction Guaranteed"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Welcome Back",
+      "subtitle": "Sign in to manage your property services",
+      "email": "Email",
+      "emailPlaceholder": "Enter your email",
+      "password": "Password",
+      "passwordPlaceholder": "Enter your password",
+      "forgotPassword": "Forgot password?",
+      "submit": "Sign In",
+      "loading": "Signing in...",
+      "or": "or",
+      "noAccount": "Don't have an account?",
+      "registerLink": "Sign up",
+      "driverCta": "Want to join our crew?",
+      "driverCtaLink": "Apply here →",
+      "backToHome": "Back to home",
+      "registeredSuccess": "Account created! Check your email to verify and get started."
+    },
+    "register": {
+      "title": "Create Your Account",
+      "subtitle": "Get started with professional exterior maintenance",
+      "driverSignup": "Join Our Crew",
+      "fullName": "Full Name",
+      "fullNamePlaceholder": "Enter your full name",
+      "email": "Email",
+      "emailPlaceholder": "Enter your email",
+      "password": "Password",
+      "passwordPlaceholder": "Create a password (min. 6 characters)",
+      "confirmPassword": "Confirm Password",
+      "confirmPasswordPlaceholder": "Confirm your password",
+      "terms": "I agree to the",
+      "termsLink": "Terms of Service",
+      "and": "and",
+      "privacyLink": "Privacy Policy",
+      "submit": "Create Account",
+      "loading": "Creating account...",
+      "or": "or",
+      "hasAccount": "Already have an account?",
+      "loginLink": "Sign in",
+      "backToHome": "Back to home",
+      "passwordMismatch": "Passwords do not match",
+      "passwordTooShort": "Password must be at least 6 characters",
+      "phone": "Phone Number",
+      "phonePlaceholder": "Enter your phone number",
+      "phoneRequired": "Phone number is required",
+      "phoneInvalid": "Invalid phone number",
+      "sendCode": "Send Code",
+      "sendingCode": "Sending...",
+      "verifyPhone": "Verify Phone",
+      "verificationCode": "Verification Code",
+      "verificationCodePlaceholder": "Enter 6-digit code",
+      "verifyCode": "Verify Code",
+      "verifying": "Verifying...",
+      "phoneVerified": "Phone verified",
+      "codeExpired": "Code has expired, request a new one",
+      "invalidCode": "Invalid code, try again",
+      "codeSent": "Code sent to your phone",
+      "resendCode": "Resend code",
+      "resendIn": "Resend in {seconds}s",
+      "emailVerification": "Email Verification",
+      "emailCodeSent": "Code sent to your email",
+      "emailVerified": "Email verified",
+      "sendEmailCode": "Verify",
+      "verifyBothRequired": "You must verify your email and phone to continue"
+    }
+  },
+  "dashboard": {
+    "nav": {
+      "overview": "Dashboard",
+      "deliveries": "Jobs",
+      "drivers": "Crew",
+      "vehicles": "Equipment",
+      "tracking": "Schedule",
+      "payments": "Invoicing",
+      "reports": "Reports",
+      "documents": "Documents",
+      "myDeliveries": "My Jobs",
+      "myEarnings": "My Schedule",
+      "myVehicle": "My Equipment",
+      "myDocuments": "My Documents",
+      "settings": "Settings",
+      "help": "Help & Support",
+      "home": "Go to Home"
+    },
+    "header": {
+      "search": "Search...",
+      "profile": "My Profile",
+      "settings": "Settings",
+      "goToHome": "Go to Home",
+      "signOut": "Sign Out"
+    },
+    "overview": {
+      "title": "Business Dashboard",
+      "subtitle": "Welcome back, {name}. Here's your property overview."
+    },
+    "stats": {
+      "totalDeliveries": "Total Jobs",
+      "activeDrivers": "Active Crew",
+      "pendingDeliveries": "Scheduled",
+      "completedToday": "Completed Today",
+      "myDeliveriesToday": "Today's Jobs",
+      "completed": "Completed",
+      "pending": "Scheduled",
+      "earnings": "Revenue",
+      "thisMonth": "This month",
+      "online": "Active now",
+      "needsAttention": "Needs attention",
+      "deliveries": "Jobs",
+      "assigned": "Assigned",
+      "today": "Today",
+      "toDeliver": "To complete",
+      "thisWeek": "This week"
+    },
+    "recentDeliveries": {
+      "title": "Recent Jobs",
+      "viewAll": "View All",
+      "empty": "No jobs scheduled yet. Create your first job to get started."
+    },
+    "quickActions": {
+      "title": "Quick Actions",
+      "newDelivery": "New Job",
+      "newDeliveryDesc": "Create a new service job",
+      "manageDrivers": "Manage Crew",
+      "manageDriversDesc": "View and manage team members",
+      "liveTracking": "Schedule",
+      "liveTrackingDesc": "View upcoming schedule",
+      "viewMyDeliveries": "My Jobs",
+      "viewMyDeliveriesDesc": "View assigned jobs today",
+      "viewEarnings": "Revenue",
+      "viewEarningsDesc": "Track invoicing and payments",
+      "alerts": "Updates",
+      "noAlerts": "You're all caught up!"
+    },
+    "elevation": {
+      "title": "Business Growth",
+      "currentLevel": "Current Status",
+      "nextLevel": "Next Goal",
+      "progress": "Progress",
+      "requirements": "Goals for next milestone",
+      "mentor": "Account Manager"
+    }
+  },
+  "contact": {
+    "title": "Get Your Free Quote",
+    "subtitle": "Tell us about your property and we'll create a custom service plan for you. Free estimates, no obligation.",
+    "form": {
+      "name": "Full Name",
+      "namePlaceholder": "Your full name",
+      "email": "Email Address",
+      "emailPlaceholder": "your@email.com",
+      "phone": "Phone Number",
+      "phonePlaceholder": "(555) 123-4567",
+      "address": "Property Address",
+      "addressPlaceholder": "123 Main St, City, State",
+      "services": "Services Interested In",
+      "lotSize": "Approximate Lot Size",
+      "lotSmall": "Small (under 5,000 sq ft)",
+      "lotMedium": "Medium (5,000-10,000 sq ft)",
+      "lotLarge": "Large (10,000-20,000 sq ft)",
+      "lotXlarge": "Extra Large (20,000+ sq ft)",
+      "frequency": "Desired Service Frequency",
+      "freqOnce": "One-time service",
+      "freqBiweekly": "Bi-weekly",
+      "freqWeekly": "Weekly",
+      "freqMonthly": "Monthly package",
+      "message": "Additional Details",
+      "messagePlaceholder": "Tell us anything else about your property or specific needs...",
+      "submit": "Request Free Quote",
+      "submitting": "Sending...",
+      "success": "Quote request sent! We'll get back to you within 24 hours.",
+      "error": "Something went wrong. Please try again or call us directly."
+    },
+    "services": {
+      "mowing": "Lawn Mowing",
+      "cleanup": "Yard Cleanup",
+      "gutters": "Gutter Cleaning",
+      "pressure": "Pressure Washing",
+      "garden": "Garden Design",
+      "mulching": "Mulching",
+      "trimming": "Hedge Trimming",
+      "other": "Other"
+    }
+  }
+}

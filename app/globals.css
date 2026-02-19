@@ -1,0 +1,415 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ====================================================
+   GREEN EMPIRE LAWN & LANDSCAPE - GLASS MORPHISM DESIGN SYSTEM
+   ==================================================== */
+
+/* CSS Variables for Theme-Aware Design */
+:root {
+  /* Light Theme - Fresh & Natural */
+  --bg-primary: 245 247 240;
+  --bg-secondary: 240 245 235;
+  --bg-glass: rgba(255, 255, 255, 0.82);
+  --bg-card: rgba(255, 255, 255, 0.92);
+  --text-primary: 26 46 26;
+  --text-secondary: 85 107 85;
+  --border-glass: rgba(45, 106, 46, 0.15);
+  --shadow-glass: rgba(26, 46, 26, 0.08);
+
+  /* GREEN EMPIRE LLC Brand Colors */
+  --ge-green: 45 106 46;
+  --ge-gold: 200 169 81;
+  --ge-lime: 139 195 74;
+  --ge-dark: 26 46 26;
+  --ge-cream: 245 247 240;
+
+  /* Shadcn/UI base colors - Light */
+  --background: 90 20% 97%;
+  --foreground: 120 30% 10%;
+  --card: 90 20% 99%;
+  --card-foreground: 120 30% 10%;
+  --muted: 100 15% 93%;
+  --muted-foreground: 120 10% 40%;
+  --border: 100 15% 88%;
+
+  /* Glass Effects - Light */
+  --blur-subtle: blur(8px) saturate(120%);
+  --blur-medium: blur(16px) saturate(150%) contrast(110%);
+  --blur-strong: blur(24px) saturate(180%) contrast(120%) brightness(110%);
+  --blur-ultra: blur(32px) saturate(200%) contrast(130%) brightness(115%);
+}
+
+.dark {
+  /* Dark Theme - Deep Forest */
+  --bg-primary: 12 20 12;
+  --bg-secondary: 18 28 18;
+  --bg-glass: rgba(18, 28, 18, 0.88);
+  --bg-card: rgba(26, 40, 26, 0.92);
+  --text-primary: 240 248 240;
+  --text-secondary: 148 180 148;
+  --border-glass: rgba(76, 175, 80, 0.2);
+  --shadow-glass: rgba(0, 0, 0, 0.4);
+
+  /* Shadcn/UI base colors - Dark */
+  --background: 120 25% 5%;
+  --foreground: 100 20% 95%;
+  --card: 120 20% 7%;
+  --card-foreground: 100 20% 95%;
+  --muted: 120 15% 14%;
+  --muted-foreground: 100 10% 60%;
+  --border: 120 15% 14%;
+
+  /* Glass Effects - Dark */
+  --blur-subtle: blur(8px) saturate(120%);
+  --blur-medium: blur(16px) saturate(150%) contrast(110%);
+  --blur-strong: blur(24px) saturate(180%) contrast(120%) brightness(110%);
+  --blur-ultra: blur(32px) saturate(200%) contrast(130%) brightness(115%);
+}
+
+/* ====================================================
+   GLASS MORPHISM BASE COMPONENTS
+   ==================================================== */
+
+/* Glass Panel - Main container */
+.glass-panel {
+  background: var(--bg-glass);
+  backdrop-filter: var(--blur-medium);
+  -webkit-backdrop-filter: var(--blur-medium);
+  border: 1px solid var(--border-glass);
+  border-radius: 1rem;
+  box-shadow:
+    0 8px 32px var(--shadow-glass),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.glass-panel:hover {
+  backdrop-filter: var(--blur-strong);
+  -webkit-backdrop-filter: var(--blur-strong);
+  transform: translateY(-2px);
+  box-shadow:
+    0 12px 40px var(--shadow-glass),
+    inset 0 1px 0 rgba(255, 255, 255, 0.15);
+}
+
+/* Glass Card - Enhanced version */
+.glass-card {
+  background: var(--bg-card);
+  backdrop-filter: var(--blur-medium);
+  -webkit-backdrop-filter: var(--blur-medium);
+  border: 1px solid var(--border-glass);
+  border-radius: 0.75rem;
+  box-shadow:
+    0 4px 24px var(--shadow-glass),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.glass-card:hover {
+  backdrop-filter: var(--blur-strong);
+  -webkit-backdrop-filter: var(--blur-strong);
+  transform: translateY(-1px);
+  box-shadow:
+    0 8px 32px var(--shadow-glass),
+    inset 0 1px 0 rgba(255, 255, 255, 0.15);
+}
+
+/* Glass Button */
+.glass-button {
+  background: var(--bg-glass);
+  backdrop-filter: var(--blur-medium);
+  -webkit-backdrop-filter: var(--blur-medium);
+  border: 1px solid var(--border-glass);
+  border-radius: 0.5rem;
+  color: rgb(var(--text-primary));
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.glass-button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(76, 175, 80, 0.15), transparent);
+  transition: left 0.6s;
+}
+
+.glass-button:hover {
+  backdrop-filter: var(--blur-strong);
+  -webkit-backdrop-filter: var(--blur-strong);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 20px var(--shadow-glass);
+}
+
+.glass-button:hover::before {
+  left: 100%;
+}
+
+.glass-button:active {
+  transform: translateY(0);
+}
+
+/* ====================================================
+   GREEN EMPIRE SPECIFIC COMPONENTS
+   ==================================================== */
+
+/* Nature-inspired gradient button */
+.ge-button-primary {
+  background: linear-gradient(135deg, #2d6a2e, #4caf50);
+  color: white;
+  font-weight: 600;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.75rem;
+  border: none;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 15px rgba(45, 106, 46, 0.3);
+}
+
+.ge-button-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(45, 106, 46, 0.4);
+}
+
+.ge-button-primary:active {
+  transform: translateY(0);
+}
+
+/* Gold accent button */
+.ge-button-gold {
+  background: linear-gradient(135deg, #c8a951, #dbc67e);
+  color: #1a2e1a;
+  font-weight: 600;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.75rem;
+  border: none;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 15px rgba(200, 169, 81, 0.3);
+}
+
+.ge-button-gold:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(200, 169, 81, 0.4);
+}
+
+/* Section divider with leaf motif */
+.ge-divider {
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #4caf50, #c8a951, #4caf50, transparent);
+  border: none;
+  margin: 2rem 0;
+}
+
+/* ====================================================
+   ANIMATIONS & TRANSITIONS
+   ==================================================== */
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.float {
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow:
+      0 8px 32px var(--shadow-glass),
+      inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  }
+  50% {
+    box-shadow:
+      0 12px 48px rgba(76, 175, 80, 0.3),
+      inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  }
+}
+
+.pulse-glow {
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes leaf-sway {
+  0%, 100% {
+    transform: rotate(-3deg) translateY(0);
+  }
+  50% {
+    transform: rotate(3deg) translateY(-5px);
+  }
+}
+
+.leaf-sway {
+  animation: leaf-sway 4s ease-in-out infinite;
+}
+
+/* ====================================================
+   RESPONSIVE DESIGN
+   ==================================================== */
+
+@media (max-width: 768px) {
+  .glass-panel,
+  .glass-card {
+    backdrop-filter: var(--blur-subtle);
+    -webkit-backdrop-filter: var(--blur-subtle);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .glass-panel,
+  .glass-card,
+  .glass-button {
+    transition: none;
+  }
+
+  .float,
+  .pulse-glow,
+  .leaf-sway {
+    animation: none;
+  }
+}
+
+/* ====================================================
+   THEME-AWARE BACKGROUND GRADIENTS
+   ==================================================== */
+
+/* Light theme gradient - Green Empire colors */
+.theme-gradient-bg {
+  background: linear-gradient(135deg,
+    rgb(245 247 240) 0%,
+    rgb(232 245 233 / 0.5) 25%,
+    rgb(241 248 233 / 0.4) 50%,
+    rgb(245 247 240) 75%,
+    rgb(255 253 245 / 0.3) 100%
+  );
+}
+
+/* Dark theme gradient */
+.dark .theme-gradient-bg {
+  background: linear-gradient(135deg,
+    rgb(12 20 12) 0%,
+    rgb(26 46 26 / 0.5) 25%,
+    rgb(18 28 18) 50%,
+    rgb(20 35 20) 75%,
+    rgb(12 20 12) 100%
+  );
+}
+
+/* ====================================================
+   GLASS CRYSTAL - Works on BOTH Light and Dark modes
+   ==================================================== */
+
+.glass-crystal {
+  background: rgba(45, 106, 46, 0.06);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(45, 106, 46, 0.12);
+  box-shadow:
+    0 4px 16px rgba(45, 106, 46, 0.08),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+.glass-crystal:hover {
+  background: rgba(45, 106, 46, 0.1);
+  box-shadow:
+    0 8px 24px rgba(45, 106, 46, 0.12),
+    inset 0 1px 0 rgba(255, 255, 255, 0.15);
+}
+
+.dark .glass-crystal {
+  background: rgba(76, 175, 80, 0.08);
+  border: 1px solid rgba(76, 175, 80, 0.15);
+  box-shadow:
+    0 4px 16px rgba(0, 0, 0, 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 0.05);
+}
+
+.dark .glass-crystal:hover {
+  background: rgba(76, 175, 80, 0.12);
+  box-shadow:
+    0 8px 24px rgba(0, 0, 0, 0.4),
+    inset 0 1px 0 rgba(255, 255, 255, 0.08);
+}
+
+/* ====================================================
+   TYPOGRAPHY
+   ==================================================== */
+
+html {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background: rgb(var(--bg-primary));
+  color: rgb(var(--text-primary));
+  line-height: 1.5;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Global transition for theme changes */
+*, *::before, *::after {
+  transition: background-color 0.3s ease,
+              border-color 0.3s ease,
+              color 0.3s ease,
+              box-shadow 0.3s ease;
+}
+
+/* Disable transitions on page load to prevent flash */
+.no-transitions * {
+  transition: none !important;
+}
+
+/* ====================================================
+   SCROLLBAR STYLING
+   ==================================================== */
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(var(--bg-secondary));
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(45, 106, 46, 0.3);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(45, 106, 46, 0.5);
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: rgba(76, 175, 80, 0.3);
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: rgba(76, 175, 80, 0.5);
+}

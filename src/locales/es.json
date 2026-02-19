@@ -1,0 +1,447 @@
+{
+  "landing": {
+    "hero": {
+      "badge1": "Licenciados y Asegurados",
+      "badge2": "Mantenimiento Exterior Completo",
+      "title1": "Tu Propiedad,",
+      "title2": "Completamente Transformada.",
+      "subtitle": "Green Empire Lawn & Landscape es tu solución completa de mantenimiento exterior. Limpiamos, organizamos y transformamos el exterior de tu casa para que no tengas que contratar a varias personas.",
+      "cta1": "Cotización Gratis",
+      "cta2": "Llámanos Ahora",
+      "trust1": "Licenciados y Asegurados",
+      "trust2": "5 Estrellas",
+      "trust3": "Satisfacción Garantizada"
+    },
+    "stats": {
+      "properties": "Propiedades Atendidas",
+      "rating": "Calificación",
+      "experience": "Años de Experiencia",
+      "satisfaction": "Satisfacción"
+    },
+    "services": {
+      "badge": "Nuestros Servicios",
+      "title": "Mantenimiento Exterior Completo",
+      "subtitle": "Desde chapea de grama hasta diseño de jardines — un equipo, una llamada, una factura. Nos encargamos de todo lo exterior para que disfrutes tu propiedad sin estrés.",
+      "mowing": {
+        "title": "Chapea y Mantenimiento de Grama",
+        "desc": "Corte semanal o quincenal, bordeado de precisión, recorte y soplado. Mantenemos tu césped impecable y saludable durante toda la temporada."
+      },
+      "cleanup": {
+        "title": "Limpieza de Patio y Hojas",
+        "desc": "Limpiezas de primavera y otoño, remoción de escombros, recolección de hojas y orden general. Empieza cada temporada con un patio limpio."
+      },
+      "gutters": {
+        "title": "Limpieza de Canaletas",
+        "desc": "Limpieza completa de canaletas y bajantes para prevenir daños por agua, problemas de cimentación y plagas. Recomendado 2 veces al año."
+      },
+      "pressure": {
+        "title": "Limpieza de Driveway y Superficies",
+        "desc": "Lavado a presión profesional para driveways, aceras, patios y superficies exteriores. Recupera el atractivo de tu propiedad al instante."
+      },
+      "garden": {
+        "title": "Diseño de Jardines y Siembra",
+        "desc": "Diseño personalizado de jardines, diseño de arriates, instalación de arbustos y siembras de temporada. Transforma tu espacio exterior."
+      },
+      "mulching": {
+        "title": "Mulching y Mantenimiento de Arriates",
+        "desc": "Instalación de mulch fresco, bordeado de arriates, prevención de maleza y recorte de arbustos. Mantén tu paisajismo impecable todo el año."
+      },
+      "cta": "Solicita tu Cotización Gratis"
+    },
+    "packages": {
+      "badge": "Planes de Servicio",
+      "title": "Precios Simples y Transparentes",
+      "subtitle": "Elige el plan que mejor se adapte a tu propiedad. Todos los planes incluyen nuestra garantía de satisfacción y servicio confiable.",
+      "perVisit": "visita",
+      "perMonth": "mes",
+      "popular": "Más Popular",
+      "getCTA": "Comenzar",
+      "essential": {
+        "name": "Cuidado Esencial",
+        "desc": "Perfecto para mantenimiento básico",
+        "price": "$45",
+        "feature1": "Corte semanal o quincenal",
+        "feature2": "Bordeado y recorte de precisión",
+        "feature3": "Soplado y limpieza después del servicio",
+        "feature4": "Mismo equipo en cada visita"
+      },
+      "complete": {
+        "name": "Cuidado Completo",
+        "desc": "Salud integral del césped y paisaje",
+        "price": "$199",
+        "feature1": "Todo lo del Cuidado Esencial",
+        "feature2": "Fertilización estacional (4x/año)",
+        "feature3": "Control preventivo de maleza",
+        "feature4": "Limpiezas de primavera y otoño incluidas",
+        "feature5": "Renovación anual de mulch",
+        "feature6": "Bordeado de arriates (2x/año)"
+      },
+      "total": {
+        "name": "Cuidado Total de Propiedad",
+        "desc": "La solución definitiva con una llamada",
+        "price": "$349",
+        "feature1": "Todo lo del Cuidado Completo",
+        "feature2": "Limpieza de canaletas (2x/año)",
+        "feature3": "Lavado a presión del driveway (1x/año)",
+        "feature4": "Recorte de setos y arbustos (3x/año)",
+        "feature5": "Remoción completa de hojas (otoño)",
+        "feature6": "Programación prioritaria",
+        "feature7": "Gerente de cuenta dedicado"
+      }
+    },
+    "whyUs": {
+      "title": "Por Qué los Propietarios Eligen Green Empire",
+      "subtitle": "Deja de buscar múltiples contratistas. Nos encargamos de todo lo exterior con un equipo, una factura y calidad consistente.",
+      "problemTitle": "El Dolor de Cabeza de Múltiples Contratistas",
+      "problem1": "Coordinar 3-4 proveedores diferentes de servicio",
+      "problem2": "Calidad inconsistente de diferentes equipos",
+      "problem3": "Múltiples facturas y dolores de cabeza con horarios",
+      "problem4": "Sin un punto único de responsabilidad",
+      "solutionTitle": "La Solución Green Empire",
+      "solution1": "Un equipo de confianza para todos los servicios exteriores",
+      "solution2": "Calidad consistente con el mismo equipo en cada visita",
+      "solution3": "Una sola factura mensual — simple y predecible",
+      "solution4": "100% garantía de satisfacción en cada servicio"
+    },
+    "howItWorks": {
+      "title": "Comenzar Es Fácil",
+      "subtitle": "De la primera llamada a una propiedad hermosa en tres simples pasos.",
+      "step1": {
+        "title": "Solicita Tu Cotización Gratis",
+        "desc": "Cuéntanos sobre tu propiedad y los servicios que necesitas. Programaremos una evaluación gratuita en el lugar a tu conveniencia."
+      },
+      "step2": {
+        "title": "Evaluamos y Planificamos",
+        "desc": "Nuestro equipo visita tu propiedad, evalúa lo necesario y crea un plan personalizado adaptado a tus metas y presupuesto."
+      },
+      "step3": {
+        "title": "Disfruta Tu Propiedad",
+        "desc": "Siéntate y relájate. Nos encargamos de todo en un horario confiable para que tu propiedad siempre luzca espectacular."
+      }
+    },
+    "seasonal": {
+      "badge": "Cuidado Todo el Año",
+      "title": "Cada Temporada, Te Tenemos Cubierto",
+      "subtitle": "Las necesidades de tu propiedad cambian con las estaciones. Nuestros servicios se adaptan para mantener tu exterior perfecto todo el año.",
+      "spring": {
+        "name": "Primavera",
+        "service1": "Limpieza de primavera y escombros",
+        "service2": "Aireación y resiembra",
+        "service3": "Instalación de mulch y preparación"
+      },
+      "summer": {
+        "name": "Verano",
+        "service1": "Corte y mantenimiento semanal",
+        "service2": "Recorte de setos y arbustos",
+        "service3": "Servicios de lavado a presión"
+      },
+      "fall": {
+        "name": "Otoño",
+        "service1": "Remoción de hojas y limpieza",
+        "service2": "Limpieza de canaletas",
+        "service3": "Fertilización y preparación invernal"
+      },
+      "winter": {
+        "name": "Invierno",
+        "service1": "Poda invernal",
+        "service2": "Mantenimiento de equipos",
+        "service3": "Planificación y pre-reserva de primavera"
+      }
+    },
+    "testimonials": {
+      "badge": "Reseñas de Clientes",
+      "title": "Lo Que Dicen Nuestros Clientes",
+      "review1": {
+        "text": "Green Empire transformó nuestro patio completamente. Antes contratábamos tres personas diferentes para el césped, canaletas y lavado a presión. Ahora es un solo equipo, una factura. La calidad es increíble y llegan como reloj.",
+        "name": "Sarah M.",
+        "location": "Cliente Residencial"
+      },
+      "review2": {
+        "text": "El mejor servicio de paisajismo que hemos usado. El equipo es profesional, minucioso y realmente se preocupa por cómo luce la propiedad. Nuestros vecinos siempre preguntan quién nos hace el patio. ¡Totalmente recomendado!",
+        "name": "James R.",
+        "location": "Propietario"
+      },
+      "review3": {
+        "text": "Me encanta el paquete Cuidado Completo. Ya no me preocupo por limpiezas estacionales, programas de fertilización o buscar a alguien para limpiar las canaletas. Green Empire se encarga de todo y mi patio nunca se ha visto mejor.",
+        "name": "Linda P.",
+        "location": "Cliente de Paquete"
+      }
+    },
+    "serviceArea": {
+      "title": "Sirviendo a Tu Comunidad",
+      "desc": "Servimos con orgullo propiedades residenciales y comerciales en toda el área. Contáctanos para confirmar disponibilidad en tu vecindario.",
+      "area1": "Distrito Central",
+      "area2": "Zona Norte",
+      "area3": "Zona Sur",
+      "area4": "Condado Este",
+      "area5": "Zona Oeste"
+    },
+    "faq": {
+      "badge": "Preguntas Frecuentes",
+      "title": "Preguntas Frecuentes",
+      "q1": "¿Qué áreas cubren?",
+      "a1": "Servimos propiedades residenciales y comerciales en toda el área metropolitana. Contáctanos con tu dirección y confirmaremos disponibilidad. Estamos expandiendo nuestra zona de servicio regularmente.",
+      "q2": "¿Qué tan rápido pueden comenzar el servicio?",
+      "a2": "La mayoría de nuevos clientes son programados dentro de 3-5 días hábiles de su consulta inicial. Para necesidades urgentes como limpieza post-tormenta, ofrecemos programación prioritaria en 24-48 horas cuando es posible.",
+      "q3": "¿Necesito estar en casa durante el servicio?",
+      "a3": "¡No! La mayoría de nuestros clientes no están en casa durante las visitas de servicio. Solo necesitamos acceso a las áreas donde trabajaremos. Te enviaremos una notificación cuando lleguemos y cuando terminemos, junto con fotos del trabajo completado.",
+      "q4": "¿Qué pasa si llueve en mi día programado?",
+      "a4": "Monitoreamos el clima de cerca. Si las condiciones no permiten trabajo seguro y de calidad, reprogramamos dentro de 24-48 horas sin cargo adicional. Nunca hacemos trabajo mediocre solo por cumplir un horario.",
+      "q5": "¿Puedo personalizar mi paquete de servicio?",
+      "a5": "¡Absolutamente! Nuestros paquetes son puntos de partida. Podemos agregar o quitar servicios para crear el plan perfecto para tu propiedad. Solo dinos lo que necesitas y crearemos una cotización personalizada.",
+      "q6": "¿Están licenciados y asegurados?",
+      "a6": "Sí. Green Empire Lawn & Landscape LLC está completamente licenciado y asegurado, incluyendo responsabilidad general y cobertura de compensación laboral. Tu propiedad y nuestro equipo siempre están protegidos."
+    },
+    "finalCta": {
+      "title": "¿Listo Para una Propiedad que Amarás?",
+      "line1": "Deja de estresarte por tu patio. Deja de contratar múltiples personas.",
+      "line2": "Una llamada. Cuidado exterior completo. Satisfacción garantizada.",
+      "line3": "Tu cotización gratis está a un clic de distancia.",
+      "button1": "Obtén Tu Cotización Gratis",
+      "button2": "Llámanos Ahora",
+      "disclaimer": "Estimados gratis. Sin compromiso. Satisfacción garantizada en cada servicio."
+    }
+  },
+  "navigation": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "packages": "Precios",
+    "contact": "Contacto",
+    "about": "Nosotros",
+    "login": "Ingresar",
+    "getQuote": "Cotización Gratis"
+  },
+  "common": {
+    "loading": "Cargando...",
+    "error": "Error",
+    "success": "Éxito",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "back": "Volver",
+    "continue": "Continuar",
+    "learnMore": "Más Info",
+    "getStarted": "Comenzar",
+    "contactUs": "Contáctanos"
+  },
+  "footer": {
+    "brand": {
+      "name": "Green Empire Lawn & Landscape",
+      "tagline": "Cuidado Exterior Completo",
+      "description": "Tu solución completa de mantenimiento exterior. Un equipo de confianza para césped, paisajismo, canaletas, lavado a presión y diseño de jardines.",
+      "location": "Sirviendo el Área Mayor",
+      "hours": "Lun-Sáb: 7AM - 7PM"
+    },
+    "services": {
+      "title": "Servicios",
+      "mowing": "Chapea y Mantenimiento",
+      "cleanup": "Limpieza de Patio y Hojas",
+      "gutters": "Limpieza de Canaletas",
+      "pressure": "Lavado a Presión",
+      "garden": "Diseño de Jardines"
+    },
+    "company": {
+      "title": "Empresa",
+      "about": "Sobre Nosotros",
+      "pricing": "Planes de Servicio",
+      "contact": "Contáctanos",
+      "quote": "Cotización Gratis"
+    },
+    "areas": {
+      "title": "Áreas de Servicio",
+      "area1": "Distrito Central",
+      "area2": "Zona Norte",
+      "area3": "Zona Sur",
+      "area4": "Condado Este",
+      "area5": "Zona Oeste"
+    },
+    "bottom": {
+      "copyright": "© 2025 Green Empire Lawn & Landscape LLC. Todos los derechos reservados.",
+      "licensed": "Licenciados y Asegurados",
+      "insured": "Satisfacción Garantizada"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Bienvenido de Vuelta",
+      "subtitle": "Inicia sesión para gestionar tus servicios",
+      "email": "Correo Electrónico",
+      "emailPlaceholder": "Ingresa tu correo",
+      "password": "Contraseña",
+      "passwordPlaceholder": "Ingresa tu contraseña",
+      "forgotPassword": "¿Olvidaste tu contraseña?",
+      "submit": "Iniciar Sesión",
+      "loading": "Iniciando sesión...",
+      "or": "o",
+      "noAccount": "¿No tienes cuenta?",
+      "registerLink": "Regístrate",
+      "driverCta": "¿Quieres unirte a nuestro equipo?",
+      "driverCtaLink": "Aplica aquí →",
+      "backToHome": "Volver al inicio",
+      "registeredSuccess": "¡Cuenta creada! Revisa tu correo para verificar y comenzar."
+    },
+    "register": {
+      "title": "Crea Tu Cuenta",
+      "subtitle": "Comienza con mantenimiento exterior profesional",
+      "driverSignup": "Únete a Nuestro Equipo",
+      "fullName": "Nombre Completo",
+      "fullNamePlaceholder": "Ingresa tu nombre completo",
+      "email": "Correo Electrónico",
+      "emailPlaceholder": "Ingresa tu correo",
+      "password": "Contraseña",
+      "passwordPlaceholder": "Crea una contraseña (mín. 6 caracteres)",
+      "confirmPassword": "Confirmar Contraseña",
+      "confirmPasswordPlaceholder": "Confirma tu contraseña",
+      "terms": "Acepto los",
+      "termsLink": "Términos de Servicio",
+      "and": "y la",
+      "privacyLink": "Política de Privacidad",
+      "submit": "Crear Cuenta",
+      "loading": "Creando cuenta...",
+      "or": "o",
+      "hasAccount": "¿Ya tienes cuenta?",
+      "loginLink": "Inicia sesión",
+      "backToHome": "Volver al inicio",
+      "passwordMismatch": "Las contraseñas no coinciden",
+      "passwordTooShort": "La contraseña debe tener al menos 6 caracteres",
+      "phone": "Número de Teléfono",
+      "phonePlaceholder": "Ingresa tu número de teléfono",
+      "phoneRequired": "El número de teléfono es requerido",
+      "phoneInvalid": "Número de teléfono inválido",
+      "sendCode": "Enviar Código",
+      "sendingCode": "Enviando...",
+      "verifyPhone": "Verificar Teléfono",
+      "verificationCode": "Código de Verificación",
+      "verificationCodePlaceholder": "Ingresa el código de 6 dígitos",
+      "verifyCode": "Verificar Código",
+      "verifying": "Verificando...",
+      "phoneVerified": "Teléfono verificado",
+      "codeExpired": "El código ha expirado, solicita uno nuevo",
+      "invalidCode": "Código inválido, intenta de nuevo",
+      "codeSent": "Código enviado a tu teléfono",
+      "resendCode": "Reenviar código",
+      "resendIn": "Reenviar en {seconds}s",
+      "emailVerification": "Verificación de Email",
+      "emailCodeSent": "Código enviado a tu correo",
+      "emailVerified": "Email verificado",
+      "sendEmailCode": "Verificar",
+      "verifyBothRequired": "Debes verificar tu correo y teléfono para continuar"
+    }
+  },
+  "dashboard": {
+    "nav": {
+      "overview": "Panel",
+      "deliveries": "Trabajos",
+      "drivers": "Equipo",
+      "vehicles": "Equipos",
+      "tracking": "Calendario",
+      "payments": "Facturación",
+      "reports": "Reportes",
+      "documents": "Documentos",
+      "myDeliveries": "Mis Trabajos",
+      "myEarnings": "Mi Calendario",
+      "myVehicle": "Mi Equipo",
+      "myDocuments": "Mis Documentos",
+      "settings": "Configuración",
+      "help": "Ayuda y Soporte",
+      "home": "Ir al Inicio"
+    },
+    "header": {
+      "search": "Buscar...",
+      "profile": "Mi Perfil",
+      "settings": "Configuración",
+      "goToHome": "Ir al Inicio",
+      "signOut": "Cerrar Sesión"
+    },
+    "overview": {
+      "title": "Panel de Negocio",
+      "subtitle": "Bienvenido de vuelta, {name}. Aquí está el resumen de tu propiedad."
+    },
+    "stats": {
+      "totalDeliveries": "Total de Trabajos",
+      "activeDrivers": "Equipo Activo",
+      "pendingDeliveries": "Programados",
+      "completedToday": "Completados Hoy",
+      "myDeliveriesToday": "Trabajos de Hoy",
+      "completed": "Completados",
+      "pending": "Programados",
+      "earnings": "Ingresos",
+      "thisMonth": "Este mes",
+      "online": "Activos ahora",
+      "needsAttention": "Requiere atención",
+      "deliveries": "Trabajos",
+      "assigned": "Asignados",
+      "today": "Hoy",
+      "toDeliver": "Por completar",
+      "thisWeek": "Esta semana"
+    },
+    "recentDeliveries": {
+      "title": "Trabajos Recientes",
+      "viewAll": "Ver Todos",
+      "empty": "Sin trabajos programados aún. Crea tu primer trabajo para comenzar."
+    },
+    "quickActions": {
+      "title": "Acciones Rápidas",
+      "newDelivery": "Nuevo Trabajo",
+      "newDeliveryDesc": "Crear un nuevo trabajo de servicio",
+      "manageDrivers": "Gestionar Equipo",
+      "manageDriversDesc": "Ver y gestionar miembros del equipo",
+      "liveTracking": "Calendario",
+      "liveTrackingDesc": "Ver calendario próximo",
+      "viewMyDeliveries": "Mis Trabajos",
+      "viewMyDeliveriesDesc": "Ver trabajos asignados hoy",
+      "viewEarnings": "Ingresos",
+      "viewEarningsDesc": "Seguimiento de facturación y pagos",
+      "alerts": "Actualizaciones",
+      "noAlerts": "¡Estás al día!"
+    },
+    "elevation": {
+      "title": "Crecimiento del Negocio",
+      "currentLevel": "Estado Actual",
+      "nextLevel": "Siguiente Meta",
+      "progress": "Progreso",
+      "requirements": "Metas para el siguiente hito",
+      "mentor": "Gerente de Cuenta"
+    }
+  },
+  "contact": {
+    "title": "Obtén Tu Cotización Gratis",
+    "subtitle": "Cuéntanos sobre tu propiedad y crearemos un plan personalizado. Estimados gratis, sin compromiso.",
+    "form": {
+      "name": "Nombre Completo",
+      "namePlaceholder": "Tu nombre completo",
+      "email": "Correo Electrónico",
+      "emailPlaceholder": "tu@correo.com",
+      "phone": "Número de Teléfono",
+      "phonePlaceholder": "(555) 123-4567",
+      "address": "Dirección de la Propiedad",
+      "addressPlaceholder": "123 Calle Principal, Ciudad, Estado",
+      "services": "Servicios de Interés",
+      "lotSize": "Tamaño Aproximado del Lote",
+      "lotSmall": "Pequeño (menos de 5,000 sq ft)",
+      "lotMedium": "Mediano (5,000-10,000 sq ft)",
+      "lotLarge": "Grande (10,000-20,000 sq ft)",
+      "lotXlarge": "Extra Grande (20,000+ sq ft)",
+      "frequency": "Frecuencia de Servicio Deseada",
+      "freqOnce": "Servicio único",
+      "freqBiweekly": "Quincenal",
+      "freqWeekly": "Semanal",
+      "freqMonthly": "Paquete mensual",
+      "message": "Detalles Adicionales",
+      "messagePlaceholder": "Cuéntanos cualquier otra cosa sobre tu propiedad o necesidades específicas...",
+      "submit": "Solicitar Cotización Gratis",
+      "submitting": "Enviando...",
+      "success": "¡Solicitud enviada! Te responderemos dentro de 24 horas.",
+      "error": "Algo salió mal. Intenta de nuevo o llámanos directamente."
+    },
+    "services": {
+      "mowing": "Chapea de Grama",
+      "cleanup": "Limpieza de Patio",
+      "gutters": "Limpieza de Canaletas",
+      "pressure": "Lavado a Presión",
+      "garden": "Diseño de Jardines",
+      "mulching": "Mulching",
+      "trimming": "Recorte de Setos",
+      "other": "Otro"
+    }
+  }
+}

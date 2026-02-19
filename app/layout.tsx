@@ -1,0 +1,59 @@
+import type { Metadata } from 'next';
+import { Inter } from 'next/font/google';
+import './globals.css';
+import { ThemeProvider } from '@/components/providers/ThemeProvider';
+import { NextIntlClientProvider } from 'next-intl';
+import { getLocale, getMessages } from 'next-intl/server';
+
+const inter = Inter({ subsets: ['latin'] });
+
+export const metadata: Metadata = {
+  title: 'Green Empire Lawn & Landscape LLC - Complete Exterior Maintenance',
+  description: 'Green Empire Lawn & Landscape LLC provides professional lawn care, landscaping, gutter cleaning, pressure washing, and garden design services. Your complete exterior maintenance solution — one call does it all.',
+  keywords: 'lawn care, landscaping, gutter cleaning, pressure washing, garden design, yard maintenance, lawn mowing, mulching, leaf removal, exterior maintenance, Green Empire',
+  authors: [{ name: 'Green Empire Lawn & Landscape LLC' }],
+  creator: 'Green Empire Lawn & Landscape LLC',
+  openGraph: {
+    title: 'Green Empire Lawn & Landscape LLC - Complete Exterior Maintenance',
+    description: 'Professional lawn care, landscaping, and exterior maintenance. One trusted team for everything outside your door.',
+    type: 'website',
+    locale: 'en_US',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Green Empire Lawn & Landscape LLC',
+    description: 'Your complete exterior maintenance solution. Lawn care, landscaping, gutter cleaning & more.',
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+};
+
+export default async function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  const locale = await getLocale();
+  const messages = await getMessages();
+
+  return (
+    <html lang={locale} suppressHydrationWarning>
+      <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+        <link rel="icon" href="/logo_greempir.png" type="image/png" />
+        <link rel="apple-touch-icon" href="/logo_greempir.png" />
+      </head>
+      <body className={inter.className}>
+        <ThemeProvider>
+          <NextIntlClientProvider locale={locale} messages={messages}>
+            <main className="min-h-screen min-h-[100dvh] bg-gradient-to-br from-ge-cream to-white dark:from-ge-dark dark:to-ge-dark-light transition-colors duration-300">
+              {children}
+            </main>
+          </NextIntlClientProvider>
+        </ThemeProvider>
+      </body>
+    </html>
+  );
+}
