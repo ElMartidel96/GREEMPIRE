@@ -5,7 +5,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { useTranslations } from 'next-intl';
-import { createClient } from '@/lib/supabase/client';
+import { createClient, isSupabaseConfigured } from '@/lib/supabase/client';
 import { Mail, Lock, Eye, EyeOff, Loader2, Leaf, CheckCircle2 } from 'lucide-react';
 import { ThemeToggle } from '@/components/ui/ThemeToggle';
 import { LanguageToggle } from '@/components/ui/LanguageToggle';
@@ -26,6 +26,12 @@ export default function LoginPage() {
     e.preventDefault();
     setLoading(true);
     setError('');
+
+    if (!isSupabaseConfigured()) {
+      setError('Authentication service is not configured. Please contact support.');
+      setLoading(false);
+      return;
+    }
 
     const supabase = createClient();
 

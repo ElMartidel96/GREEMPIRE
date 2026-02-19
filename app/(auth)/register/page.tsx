@@ -5,7 +5,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { useSearchParams } from 'next/navigation';
 import { useTranslations } from 'next-intl';
-import { createClient } from '@/lib/supabase/client';
+import { createClient, isSupabaseConfigured } from '@/lib/supabase/client';
 import { Mail, Lock, Eye, EyeOff, Loader2, User, Leaf, Phone } from 'lucide-react';
 import { ThemeToggle } from '@/components/ui/ThemeToggle';
 import { LanguageToggle } from '@/components/ui/LanguageToggle';
@@ -68,6 +68,12 @@ export default function RegisterPage() {
 
     if (password.length < 6) {
       setError(t('register.passwordTooShort'));
+      setLoading(false);
+      return;
+    }
+
+    if (!isSupabaseConfigured()) {
+      setError('Authentication service is not configured. Please contact support.');
       setLoading(false);
       return;
     }

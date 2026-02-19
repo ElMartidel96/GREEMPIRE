@@ -6,7 +6,7 @@ import Image from 'next/image';
 import { useRouter } from 'next/navigation';
 import { useTranslations } from 'next-intl';
 import type { User } from '@supabase/supabase-js';
-import { createClient } from '@/lib/supabase/client';
+import { createClient, isSupabaseConfigured } from '@/lib/supabase/client';
 import { ThemeToggle } from '@/components/ui/ThemeToggle';
 import { LanguageToggle } from '@/components/ui/LanguageToggle';
 import {
@@ -36,6 +36,7 @@ export function DashboardHeader({ user, profile }: HeaderProps) {
   const [showUserMenu, setShowUserMenu] = useState(false);
 
   const handleSignOut = async () => {
+    if (!isSupabaseConfigured()) return;
     const supabase = createClient();
     await supabase.auth.signOut();
     router.push('/');

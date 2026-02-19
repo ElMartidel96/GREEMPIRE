@@ -5,7 +5,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { useTranslations } from 'next-intl';
-import { createClient } from '@/lib/supabase/client';
+import { createClient, isSupabaseConfigured } from '@/lib/supabase/client';
 import type { User } from '@supabase/supabase-js';
 import { ThemeToggle } from '@/components/ui/ThemeToggle';
 import { LanguageToggle } from '@/components/ui/LanguageToggle';
@@ -39,6 +39,11 @@ export const Navbar: React.FC = () => {
   const router = useRouter();
 
   useEffect(() => {
+    if (!isSupabaseConfigured()) {
+      setLoading(false);
+      return;
+    }
+
     const supabase = createClient();
 
     const checkAuth = async () => {
@@ -106,6 +111,7 @@ export const Navbar: React.FC = () => {
   }, []);
 
   const handleSignOut = async () => {
+    if (!isSupabaseConfigured()) return;
     const supabase = createClient();
     await supabase.auth.signOut();
     setUser(null);

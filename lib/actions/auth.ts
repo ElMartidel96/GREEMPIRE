@@ -2,9 +2,12 @@
 
 import { revalidatePath } from 'next/cache';
 import { redirect } from 'next/navigation';
-import { createClient } from '@/lib/supabase/server';
+import { createClient, isSupabaseServerConfigured } from '@/lib/supabase/server';
 
 export async function login(formData: FormData) {
+  if (!isSupabaseServerConfigured()) {
+    return { error: 'Authentication service is not configured.' };
+  }
   const supabase = await createClient();
 
   const data = {
@@ -23,6 +26,9 @@ export async function login(formData: FormData) {
 }
 
 export async function register(formData: FormData) {
+  if (!isSupabaseServerConfigured()) {
+    return { error: 'Authentication service is not configured.' };
+  }
   const supabase = await createClient();
 
   const email = formData.get('email') as string;
@@ -48,6 +54,9 @@ export async function register(formData: FormData) {
 }
 
 export async function logout() {
+  if (!isSupabaseServerConfigured()) {
+    redirect('/');
+  }
   const supabase = await createClient();
   await supabase.auth.signOut();
   revalidatePath('/', 'layout');
