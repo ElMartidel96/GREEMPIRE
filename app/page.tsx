@@ -61,11 +61,11 @@ export default function LandingPage() {
 
   return (
     <div className="min-h-screen theme-gradient-bg text-gray-900 dark:text-white">
-      {/* Animated background elements - nature themed */}
-      <div className="fixed inset-0 opacity-20 dark:opacity-10 pointer-events-none overflow-hidden">
-        <div className="absolute top-20 left-10 w-80 h-80 bg-ge-green-light/40 rounded-full mix-blend-multiply dark:mix-blend-screen filter blur-xl animate-pulse" />
-        <div className="absolute top-60 right-20 w-72 h-72 bg-ge-lime/30 rounded-full mix-blend-multiply dark:mix-blend-screen filter blur-xl animate-pulse" style={{ animationDelay: '1s' }} />
-        <div className="absolute bottom-40 left-1/4 w-72 h-72 bg-ge-gold/20 rounded-full mix-blend-multiply dark:mix-blend-screen filter blur-xl animate-pulse" style={{ animationDelay: '2s' }} />
+      {/* Ambient background elements - subtle, diffused */}
+      <div className="fixed inset-0 opacity-[0.07] dark:opacity-[0.04] pointer-events-none overflow-hidden">
+        <div className="absolute -top-20 -left-20 w-[500px] h-[500px] bg-ge-green-light rounded-full filter blur-3xl" />
+        <div className="absolute top-1/3 -right-20 w-[400px] h-[400px] bg-ge-gold rounded-full filter blur-3xl" />
+        <div className="absolute -bottom-20 left-1/3 w-[450px] h-[450px] bg-ge-lime rounded-full filter blur-3xl" />
       </div>
 
       <Navbar />
@@ -145,10 +145,10 @@ export default function LandingPage() {
               <div className="relative flex items-center justify-center">
                 {/* Glow effect */}
                 <div
-                  className="absolute w-full max-w-lg aspect-square rounded-full opacity-40"
+                  className="absolute w-full max-w-lg aspect-square rounded-full opacity-20"
                   style={{
-                    background: 'radial-gradient(ellipse, rgba(76,175,80,0.3) 0%, rgba(200,169,81,0.2) 50%, transparent 70%)',
-                    animation: 'pulse-glow 3s ease-in-out infinite',
+                    background: 'radial-gradient(ellipse, rgba(76,175,80,0.15) 0%, rgba(200,169,81,0.08) 50%, transparent 70%)',
+                    filter: 'blur(40px)',
                   }}
                 />
 

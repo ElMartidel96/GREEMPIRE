@@ -53,9 +53,9 @@ export default function LoginPage() {
   return (
     <div className="min-h-screen theme-gradient-bg flex items-center justify-center p-4">
       {/* Background elements */}
-      <div className="fixed inset-0 opacity-30 dark:opacity-20 pointer-events-none overflow-hidden">
-        <div className="absolute top-20 left-10 w-72 h-72 bg-ge-green/40 rounded-full mix-blend-multiply dark:mix-blend-screen filter blur-xl animate-pulse" />
-        <div className="absolute bottom-20 right-10 w-72 h-72 bg-ge-green/30 rounded-full mix-blend-multiply dark:mix-blend-screen filter blur-xl animate-pulse" />
+      <div className="fixed inset-0 opacity-[0.06] dark:opacity-[0.03] pointer-events-none overflow-hidden">
+        <div className="absolute -top-10 -left-10 w-[400px] h-[400px] bg-ge-green-light rounded-full filter blur-3xl" />
+        <div className="absolute -bottom-10 -right-10 w-[400px] h-[400px] bg-ge-gold rounded-full filter blur-3xl" />
       </div>
 
       {/* Theme/Language toggles */}

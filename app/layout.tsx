@@ -50,7 +50,7 @@ export default async function RootLayout({
       <body className={inter.className}>
         <ThemeProvider>
           <NextIntlClientProvider locale={locale} messages={messages}>
-            <main className="min-h-screen min-h-[100dvh] bg-gradient-to-br from-ge-cream to-white dark:from-ge-dark dark:to-ge-dark-light transition-colors duration-300">
+            <main className="min-h-screen min-h-[100dvh] bg-[#fafafb] dark:bg-[#0a0a0c] transition-colors duration-300">
               {children}
             </main>
           </NextIntlClientProvider>

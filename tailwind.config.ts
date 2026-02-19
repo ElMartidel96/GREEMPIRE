@@ -60,7 +60,7 @@ const config: Config = {
         'ge-gold-light': '#dbc67e',
         'ge-dark': '#1a2e1a',
         'ge-dark-light': '#2e4a2e',
-        'ge-cream': '#f5f7f0',
+        'ge-cream': '#fafafb',
         'ge-earth': '#5d4037',
         'ge-earth-light': '#8d6e63',
         // Shadcn/UI semantic colors
