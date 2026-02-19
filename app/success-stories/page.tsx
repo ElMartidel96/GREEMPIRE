@@ -95,7 +95,7 @@ export default function SuccessStoriesPage() {
           <Link href="/" className="flex items-center gap-3">
             <div className="bg-white/50 dark:bg-white/10 backdrop-blur-sm rounded-lg p-1.5 border border-gray-200 dark:border-white/20">
               <Image
-                src="/logo_greempir.png"
+                src="/logo_greempir_optimized.png"
                 alt="Green Empire"
                 width={120}
                 height={66}

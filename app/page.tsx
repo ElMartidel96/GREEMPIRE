@@ -155,7 +155,7 @@ export default function LandingPage() {
                 {/* Logo Container */}
                 <div className="relative w-full max-w-md rounded-3xl glass-crystal p-6 flex items-center justify-center" style={{ animation: 'float 4s ease-in-out infinite' }}>
                   <Image
-                    src="/logo_greempir.png"
+                    src="/logo_greempir_optimized.png"
                     alt="Green Empire Lawn & Landscape LLC"
                     width={400}
                     height={400}

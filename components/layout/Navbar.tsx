@@ -139,7 +139,7 @@ export const Navbar: React.FC = () => {
           <div className="flex items-center">
             <Link href="/" className="flex items-center gap-2">
               <Image
-                src="/logo_greempir.png"
+                src="/logo_greempir_optimized.png"
                 alt="Green Empire Lawn & Landscape"
                 width={180}
                 height={100}

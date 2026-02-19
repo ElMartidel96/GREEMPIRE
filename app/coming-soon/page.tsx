@@ -13,7 +13,7 @@ export default function MaintenancePage() {
           <Link href="/" className="inline-block">
             <div className="bg-white/50 dark:bg-white/10 backdrop-blur-sm rounded-xl p-3 border border-gray-200 dark:border-white/20 hover:bg-white/70 dark:hover:bg-white/20 transition-colors inline-block">
               <Image
-                src="/logo_greempir.png"
+                src="/logo_greempir_optimized.png"
                 alt="Green Empire"
                 width={160}
                 height={88}

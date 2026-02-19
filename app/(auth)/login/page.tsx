@@ -66,7 +66,7 @@ export default function LoginPage() {
             <Link href="/" className="block">
               <div className="bg-white/50 dark:bg-white/10 backdrop-blur-sm border border-gray-200 dark:border-white/20 rounded-xl p-3 shadow-lg">
                 <Image
-                  src="/logo_greempir.png"
+                  src="/logo_greempir_optimized.png"
                   alt="Green Empire Lawn & Landscape"
                   width={200}
                   height={110}
