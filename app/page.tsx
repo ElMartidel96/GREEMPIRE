@@ -161,7 +161,7 @@ export default function LandingPage() {
                 />
 
                 {/* Hero Image Carousel */}
-                <div className="relative w-full max-w-md rounded-3xl glass-crystal p-6 flex items-center justify-center overflow-hidden" style={{ animation: 'float 4s ease-in-out infinite' }}>
+                <div className="relative w-full max-w-lg rounded-3xl glass-crystal p-2 flex items-center justify-center overflow-hidden" style={{ animation: 'float 4s ease-in-out infinite' }}>
                   <div className="relative w-full aspect-square">
                     <Image
                       src="/hero-landscape.png"
